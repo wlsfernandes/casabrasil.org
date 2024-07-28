@@ -1,0 +1,25 @@
+<?php // lang_es.php
+$lang = array(
+    'home' => 'Home',
+    'about' => 'sobre',
+    'pages' => 'Páginas',
+    'ministries' => 'MInistérios',
+    'contact' => 'contato',
+    'sermons' => 'palavra',
+    'louvando a deus' => 'Louvando a Deus',
+    'lingua' => 'na língua do coracão',
+    'junte' => 'Junte-se a nós',
+    'tremenda' => 'Tremenda Graca',
+    'constrange' => ' Sim, o amor de Cristo nos contrange, se um morreu por todos logo todos morreram',
+    'saiba' => 'Saiba Mais',
+    'plena' => 'Plena Salvacao',
+    'mundo' => 'Cristo Jesus veio ao mundo não para condenar os pecadores e sim para salvar.',
+    'galeria' => 'Galery',
+    'sal' => '"Nós somos o sal da terra e luz do mundo" - Pastor Rafael Viana',
+    '' => '',
+    '' => '',
+    '' => '',
+    '' => '',
+    '' => '',
+    
+);

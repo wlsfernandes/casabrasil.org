@@ -1,26 +1,27 @@
-<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+<!-- pt-br Default navigation bar -->
+<div id="navbarPortuguese" class="navbar navbar-default navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-      <a class="navbar-brand" href="index.html"> <img src="images/church-logo.png" alt="church logo" class="img-responsive" 
-        ></a> </div>
+      <a class="navbar-brand" href="index.html">
+        <img src="images/church-logo.png" alt="church logo" class="img-responsive">
+      </a>
+    </div>
     <div class="navbar-collapse collapse">
       <ul class="nav navbar-nav navbar-right">
-        <li class="dropdown active"><a href="#" class="dropdown-toggle" data-toggle="dropdown">HOME <span class="caret"></span></a>
-<ul class="dropdown-menu dropdown-menu-left" role="menu">
-           <li><a href="index.html">Home Default</a></li>
-            <li><a href="index-slider-alt.html">Home Animated Slider</a></li>
-          </ul>
+        <li>
+          <a href="about.html"><?php echo $lang['about']; ?></a>
         </li>
-        <li><a href="about.html">ABOUT</a></li>
-        <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">MINISTRY <span class="caret"></span></a>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><?php echo $lang['ministries']; ?> <span class="caret"></span></a>
           <ul class="dropdown-menu dropdown-menu-left" role="menu">
             <li><a href="ministry.html">Childrens Ministry</a></li>
             <li><a href="ministry.html">Students Ministry</a></li>
             <li><a href="ministry.html">Groups</a></li>
           </ul>
         </li>
-        <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">SERMONS <span class="caret"></span></a>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><?php echo $lang['sermons']; ?> <span class="caret"></span></a>
           <ul class="dropdown-menu dropdown-menu-left" role="menu">
             <li><a href="sermons.html">Christ-Occupied</a></li>
             <li><a href="sermons.html">God's Love</a></li>
@@ -28,7 +29,8 @@
             <li><a href="sermons.html">Praise Him</a></li>
           </ul>
         </li>
-        <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">PAGES <span class="caret"></span></a>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><?php echo $lang['pages']; ?> <span class="caret"></span></a>
           <ul class="dropdown-menu dropdown-menu-left" role="menu">
             <li><a href="image-gallery.html">Image Gallery</a></li>
             <li><a href="video-gallery.html">Video Gallery</a></li>
@@ -48,10 +50,11 @@
             <li><a href="http://bit.ly/BuyCatholic">Buy this Template</a></li>
           </ul>
         </li>
-        <li><a href="contact.html">CONTACT</a></li>
+        <li><a href="contato.php"><?php echo $lang['contact']; ?></a></li>
+        <a href="?lang=pt-br" style="margin-left: 5px;"><img src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.4.6/flags/4x3/br.svg" alt="Brasil" style="width: 24px;"></a>
+        <a href="?lang=en"><img src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.4.6/flags/4x3/us.svg" alt="English" style="width: 24px;"></a>
       </ul>
     </div>
-    <!--/.nav-collapse --> 
-    
   </div>
 </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
