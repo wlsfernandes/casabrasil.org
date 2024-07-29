@@ -1,7 +1,7 @@
 
 <div class="container has-margin-bottom">
   <div class="section-title">
-    <h4> OUR GALLERY </h4>
+    <h4> <?php echo $lang['nossa_galeria'] ?> </h4>
   </div>
   <div class="img-gallery row">
     <div class="col-sm-4 col-md-3"> <a class="fancybox" href="images/gallery/img_gallery_1.jpg" data-fancybox-group="gallery" title="church image gallery"> <img src="images/gallery/thumb/gallery_thumb_1.jpg" class="img-responsive" width="270" height="270" alt="church image gallery"> </a> </div>

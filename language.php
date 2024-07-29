@@ -8,7 +8,7 @@ if (isset($_GET['lang'])) {
 } elseif (isset($_SESSION['lang'])) {
     $lang = $_SESSION['lang'];
 } else {
-    $lang = 'en'; // default language
+    $lang = 'pt-br'; // default language set to Brazilian Portuguese
 }
 
 // Load language file
@@ -16,6 +16,5 @@ $lang_file = "lang_{$lang}.php";
 if (file_exists($lang_file)) {
     include_once $lang_file;
 } else {
-    include_once "lang_en.php"; // fallback to English if language file is missing
+    include_once "lang_pt-br.php"; // fallback to Brazilian Portuguese if language file is missing
 }
-

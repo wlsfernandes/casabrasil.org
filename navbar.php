@@ -3,14 +3,14 @@
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-      <a class="navbar-brand" href="index.html">
+      <a class="navbar-brand" href="index.php">
         <img src="images/church-logo.png" alt="church logo" class="img-responsive">
       </a>
     </div>
     <div class="navbar-collapse collapse">
       <ul class="nav navbar-nav navbar-right">
         <li>
-          <a href="about.html"><?php echo $lang['about']; ?></a>
+          <a href="about.php"><?php echo $lang['about']; ?></a>
         </li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown"><?php echo $lang['ministries']; ?> <span class="caret"></span></a>
@@ -21,13 +21,7 @@
           </ul>
         </li>
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><?php echo $lang['sermons']; ?> <span class="caret"></span></a>
-          <ul class="dropdown-menu dropdown-menu-left" role="menu">
-            <li><a href="sermons.html">Christ-Occupied</a></li>
-            <li><a href="sermons.html">God's Love</a></li>
-            <li><a href="sermons.html">Faithfulness</a></li>
-            <li><a href="sermons.html">Praise Him</a></li>
-          </ul>
+          <a href="video-gallery.php"><?php echo $lang['sermons']; ?></a>
         </li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown"><?php echo $lang['pages']; ?> <span class="caret"></span></a>

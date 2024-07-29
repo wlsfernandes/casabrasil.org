@@ -20,7 +20,7 @@ include 'head.php'; include 'navbar.php' ?>
     <div class="col-md-6 has-margin-bottom">
       <form id="phpcontactform" role="form">
         <div class="form-group">
-          <label>Nome Completo</label>
+          <label><?php echo $lang['nome']; ?></label>
           <input type="text" class="form-control" name="name" id="name">
         </div>
         <div class="form-group">
@@ -32,7 +32,7 @@ include 'head.php'; include 'navbar.php' ?>
           <input type="text" class="form-control" name="mobile" id="mobile">
         </div>
         <div class="form-group">
-          <label>Messagem</label>
+          <label><?php echo $lang['mensagem']; ?></label>
           <textarea class="form-control" rows="5" name="message" id="message"></textarea>
         </div>
         <button type="submit" class="btn btn-primary btn-lg">Send message</button>
@@ -42,11 +42,11 @@ include 'head.php'; include 'navbar.php' ?>
     <!--// col md 9-->
     
     <div class="col-md-6 has-margin-bottom">
-      <h5>Nosso endereço</h5>
+      <h5><?php echo $lang['nosso_endereco']; ?></h5>
       <div class="row">
-        <div class="col-lg-6">Igreja Casa Brasil<br>
-          10950 BELL RD,	Johns Creek <br>
-          Atlanta 30097 United States</div>
+        <div class="col-lg-6"><?php echo $lang['igreja_casa_brasil']; ?><br>
+        <?php echo $lang['numero_endereco']; ?> <br>
+        <?php echo $lang['bairro_cep']; ?></div>
         <div class="col-lg-6">Phone: +1 (561) 340-9109<br>
           Email: <a href="#">rev.rafael@igrejacasabrasil.com</a></div>
       </div>
@@ -62,9 +62,6 @@ include 'head.php'; include 'navbar.php' ?>
 
 <?php include 'footer.php' ?>
 
-<!-- Bootstrap core JavaScript
-================================================== --> 
-<!-- Placed at the end of the document so the pages load faster --> 
 <script src="js/jquery.js"></script> 
 <script src="js/bootstrap.min.js"></script> 
 <script src="js/ketchup.all.js"></script> 

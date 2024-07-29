@@ -1,13 +1,13 @@
 <!--CHARITY DONATION-->
 <div class="container has-margin-bottom">
   <div class="section-title">
-    <h4>GRACE OUTREACH </h4>
+    <h4><?php echo $lang['projeto_africa']; ?></h4>
   </div>
   <div class="charity-box">
     <div class="charity-image"> <img src="images/charity-donation.jpg" class="img-responsive" alt="charity donation fundraising"></div>
     <div class="charity-desc">
-      <h3>Help human trafficking survivors</h3>
-      <p> Posted by <a class="link-reverse" href="#">Steven</a> on Aug 11 2014</p>
+      <h3><?php echo $lang['projeto_africa_descricao']; ?></h3>
+      <p> Posted by <a class="link-reverse" href="#">Pastor Rafael</a> on Aug 11 2024</p>
       <h2 class="pledged-amount">$6560.00</h2>
       <p>Pledged of $15000 goal</p>
       <div class="progress">
